@@ -4,7 +4,7 @@ import numpy as np
 
 app = Flask(__name__)
 
-# Load the saved model
+# Load the saved models
 model = joblib.load('employee_attrition_model.pkl')
 
 @app.route('/')
